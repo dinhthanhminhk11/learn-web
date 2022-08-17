@@ -21,5 +21,4 @@ git clone https://github.com/manhz2003/Learn_js.git
 // Khi clone code về máy, tạo sẵn vị trí cần lưu, mở terminal lên rồi thêm lệnh như
 // dòng 15 bên trên (sử dụng link tương ứng với project)
 
-gfdgf
 
