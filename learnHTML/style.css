@@ -1,0 +1,120 @@
+/* Có 3 cách sử dụng css trong html 
+    1. inlineL: dùng trực lên trên thẻ html
+    2. internal: tạo 1 cặp thẻ style bên trong thẻ head
+    3. external: tạo file css bên ngoài, link đường dẫn vào file html, sử dụng thẻ link
+*/
+
+
+/*  reset css */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* tạo 1 địa chỉ duy nhất để gọi đến phần tử. (css , js)
+    để tạo 1 id: sử dụng dấu #
+*/
+
+
+/* class tạo địa chung cho nhiều phần tử (css, js) 
+    để tạo 1 class sử dụng .    
+*/
+
+#nav {
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    background-color: #333;
+    display: flex;
+    list-style: none;
+}
+
+.item {
+    color: #fff;
+    padding: 30px;
+    font-size: 25px;
+}
+
+
+/* box modal
+    margin: 2 phần tử tách biệt nhau mà muốn tạo khoảng cách (đúng nghĩa)
+    padding: khi 1 phần tử nằm trong 1 phần tử khác, để tạo khoảng cách, nó đệm lót 1 khoảng không gian
+    boder: khi cần tạo đường viền cho phần tử
+*/
+
+.margin1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.margin2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*  margin: 20px;    (cách đều 4 hướng)
+    margin-top: 10px; (cách phía trên)
+    margin-left: 10px; 
+    margin-right: 10px;
+    margin-bottom: 10px;
+     */
+
+.padding {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(9, 189, 27);
+}
+
+.padding-child {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(206, 32, 142);
+}
+
+
+/* tương tự margin, nhưng thay thành padding, khác nhau về định nghĩa */
+
+
+/* border: tạo 1 đường viền bao quanh phần tử */
+
+
+/* thứ tự: kích thước - kiểu đường viền - màu sắc */
+
+
+/* các kiểu viền khác tham khảo: https://www.w3schools.com/css/css_border.asp */
+
+.margin2 {
+    border: 10px dashed rgb(16, 17, 18);
+}
+
+
+/* position */
+
+
+/* lớp giả, yếu tố giả */
+
+
+/* các thuộc tính css thường dùng */
+
+
+/* sass , framwork, ./..... 
+    biến, hàm, if else, vòng lặp....
+*/

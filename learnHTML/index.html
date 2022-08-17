@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thẻ đặt tên trang web</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        p {
+            font-size: 35px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Cấu trúc của 1 trang web -->
+    <div class="header">Phần đầu</div>
+    <div class="app">Phần thân</div>
+    <div class="footer">Phần cuối</div>
+
+    <!--phân tích tổng quát -> chi tiết 
+        Đi từ trên xuống dưới
+        đi từ trái sang phải
+        đi từ ngoài vào trong
+    -->
+
+    <!-- 1 số thẻ thông dụng trong html -->
+    <!-- css inline -->
+    <h1 style="color: red;">Đây là thẻ tiêu đề, có từ h1 - h6</h1>
+    <p>Đây là thẻ nội dung 1 đoạn văn bản</p>
+    <a href="chứa đường dẫn">Đây là thẻ link</a> <br>
+    <img src="chứa đường dẫn" alt="tên của ảnh">
+    <input type="text">
+    <!-- thẻ ô chứa nội dung  -->
+    <input type="button" value="">
+    <!-- thẻ tạo nút bấm -->
+    <span>chứa nội dung</span>
+    <ul>
+        <span>thẻ tạo danh sách</span>
+        <span>ul để chứa các thẻ li</span>
+        <li>nội dung của 1 hàng</li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <table>
+        <tr></tr>
+        <th></th>
+        <td></td>
+    </table>
+
+    <i>in nghiêng</i>
+    <u>gạch</u>
+    <br>
+    <!-- thẻ xuống dòng -->
+    <hr>
+    <!-- thẻ tạo 1 đường kẻ ngang -->
+    <pre>chỉnh sửa được mọi định dạng</pre>
+    <!-- thẻ lựa chọn, thường dùng form -->
+    <select name="" id="">
+        <option value="">hcm</option>
+        <option value="">hà nội</option>
+    </select>
+    <video src="đường dẫn"></video>
+
+
+    <!-- ví dụ về id và class -->
+    <div id="nav">
+        <ul class="list">
+            <li class="item">1</li>
+            <li class="item">2</li>
+            <li class="item">3</li>
+            <li class="item">4</li>
+            <li class="item">5</li>
+        </ul>
+    </div>
+
+    <!-- ví dụ box modal  -->
+
+    <div class="box-modal">
+        <div class="margin1"></div>
+        <div class="margin2"></div>
+        <div class="padding">
+            <div class="padding-child"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
