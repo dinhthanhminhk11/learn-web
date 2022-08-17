@@ -13,6 +13,7 @@ Bước 6: git push -u origin master (push code lên git trình duyệt)
 CÁCH LẤY CODE VỀ TRÊN GITHUB VỀ MÁY
 git clone https://github.com/manhz2003/Learn_js.git
 (sử dụng đường dẫn khác tương ứng với project)
+// up date git clone: git pull
 
 // Khi thêm link kết nối với web báo lỗi thì thêm: git remote rm origin
 // Lưu ý: mỗi lần add code nên dùng git status để kiểm tra
